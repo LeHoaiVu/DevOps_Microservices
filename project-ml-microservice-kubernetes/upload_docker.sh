@@ -9,6 +9,7 @@
 dockerpath=flask_app_img
 # Step 2:  
 # Authenticate & tag
+docker login
 echo "Docker ID and Image: $dockerpath"
 # docker login
 docker tag  $dockerpath lehoaivu52/flask_app_img:latest
